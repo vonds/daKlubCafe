@@ -1,0 +1,94 @@
+
+body{
+  font-size: 25px;
+  word-wrap:break-word;
+  font-family: 'Dosis', sans-serif;
+  background: url(img/background2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;     
+}
+
+a, span, p {
+  font-size: 20px;
+}
+
+img{
+  height: 200px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  font-size: 40px;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+
+button {
+  background: #fff;
+  color: #333;
+  height: 50px;
+  padding-bottom: 20px;
+  border: 2px solid #333;
+  display: block;
+  margin: 0 auto;
+}
+
+
+button:hover {
+  background: #333;
+  color: #fff;
+  border: 2px solid #333;
+}
+
+.input-group {
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  margin: 10px auto;
+  font-size: 20px;
+  height: 40px;
+  width: 435px;
+  display: block;
+}
+
+
+
+.submitOrder {
+  width: 149px;
+}
+
+.btn-default {
+  background: #333;
+  color: #fff;
+  margin: 10px 0;
+  font-size: 20px;
+  border-radius: 0;
+}
+
+.jumbotron {
+  background: rgba(255, 255, 255, .2);
+}
+
+.page-header{
+  border-bottom: 2px solid #333;
+}
+
+.navbar {
+  border-radius: 0;
+  background: #333;
+}

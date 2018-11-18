@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Da Klub</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Da Klub</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/profile">Orders</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+
+        <div class="jumbotron text-center">
+            <h1>Da Klub Café</h1>
+            <span>Place Your Order</span>
+            <form class="placeAnOrder" method="post">
+                <input type="text" placeholder="Name" name="personName" value="">
+                <input type="text" placeholder="Order" name="personOrder" value="">
+                <button class="submitOrder" type="submit" name="button">Submit Order</button>
+            </form>
+
+            <a href="/login" class="btn btn-default">Login</a>
+            <a href="/signup" class="btn btn-default">Signup</a>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
